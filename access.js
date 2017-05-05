@@ -45,5 +45,15 @@ console.log("firstPhotoCard.textContent:", firstPhotoCard.textContent);
 console.log("links[0].href:", links[0].href);
 console.log("images[0].src:", images[0].src);
 
-console.log("photoContainer.offsetWidth:", photoContainer.offsetWidth);
-console.log("photoContainer.offsetHeight:", photoContainer.offsetHeight);
+var loremCard = document.querySelector('.lorem-card');
+console.log("loremCard.offsetWidth:", loremCard.offsetWidth);
+console.log("loremCard.offsetHeight:", loremCard.offsetHeight);
+
+console.log("loremCard.clientWidth:", loremCard.clientWidth);
+console.log("loremCard.clientHeight:", loremCard.clientHeight);
+
+console.log("loremCard.scrollWidth:", loremCard.scrollWidth);
+console.log("loremCard.scrollHeight:", loremCard.scrollHeight);
+
+console.log("loremCard.scrollLeft:", loremCard.scrollLeft);
+console.log("loremCard.scrollTop:", loremCard.scrollTop);
